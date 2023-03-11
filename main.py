@@ -555,7 +555,7 @@ def checkBinThread(uncheckedBin : str, acc1):
     remove_content("bins.txt",uncheckedBin)
     remove_content("accs.txt",acc1)
     if not bin_success==0:
-        status = "Working"
+        status_bin = "Working"
     else:
         status_bin = "Dead"
     result = f"BIN : {uncheckedBin} card success : {str(bin_success)}/5 status : {status_bin} | {acc1}"
